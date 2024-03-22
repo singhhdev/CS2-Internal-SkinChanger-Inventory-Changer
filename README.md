@@ -1,6 +1,4 @@
-fixed internal inventory changer
-extract dependecies.rar in the folder and then open .sln to compile
-use any injector to inject.
+extract the "extract me.rar", github doesnt allow big files uploads lmao
+after extract compile .dll and inject
 
-credits @bruhmoment
-open cs2cheat.vcxproj.user if project is corrupted for u.
+credits @bruhmoment for the sdk
