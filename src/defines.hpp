@@ -69,7 +69,7 @@
 #define ADD_NAMETAG_ENTITY \
     CS2_SDK_SIG("E8 ? ? ? ? 48 8B CF E8 ? ? ? ? 48 8B C8 E8 ? ? ? ?")
 #define IS_PAINT_KIT_USING_LEGACY_MODEL \
-    CS2_SDK_SIG("48 8B C4 48 89 70 20 55 48 8D 68 A1")
+    CS2_SDK_SIG("48 89 5C 24 08 48 89 74 24 10 57 48 83 EC ? 48 8B D9 48 85 C9") // use this please not raw offset
 
 // Internal
 #ifdef DISTRIBUTION_BUILD
