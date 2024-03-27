@@ -139,7 +139,7 @@ void skin_changer::OnFrameStageNotify(int frameStage)
         CGameSceneNode* pWeaponSceneNode = pWeapon->m_pGameSceneNode();
         if (!pWeaponSceneNode) continue;
         int id = pAttributeContainer->m_Item()->m_iItemDefinitionIndex();
-        if (id == 49) continue;
+        if (id == 43 || id == 44 || id == 45 || id == 46 ||id == 47 || id == 48 || id == 49 ) continue;
         // No idea how to check this faster with the new loadout system.
         C_EconItemView* pWeaponInLoadoutItemView = nullptr;
         if (pWeaponDefinition->IsWeapon()) {
